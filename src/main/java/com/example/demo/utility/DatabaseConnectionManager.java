@@ -12,6 +12,9 @@ public class DatabaseConnectionManager {
     private static String password;
     private static Connection conn;
 
+
+
+
     private DatabaseConnectionManager(){}
 
     public static Connection getConnection(){
