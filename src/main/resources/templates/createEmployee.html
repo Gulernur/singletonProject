@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create wishlist page</title>
+    <link rel="stylesheet" th:href="@{style.css}" href="../static/style.css">
+</head>
+<body>
+<div class="content">
+    <div class="heading">
+        <h1>Create an employee</h1>
+    </div>
+    <div class="form">
+        <form method="POST" action="/createEmployee">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="job">Job</label>
+            <input type="text" id="job" name="job">
+            <label for="commission">Commission</label>
+            <input type="text" id="commission" name="commission">
+            <label for="departmentNr">Department number</label>
+            <input type="text" id="departmentNr" name="departmentNr">
+            <label for="manager">Manager</label>
+            <input type="text" id="manager" name="manager">
+            <label for="salary">Salary</label>
+            <input type="text" id="salary" name="salary">
+            <label for="date">Date</label>
+            <input type="text" id="date" name="date">
+            <input type="submit" value="Create">
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
