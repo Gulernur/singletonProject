@@ -67,9 +67,6 @@ public class EmployeeRepository implements IRepository<Employee>{
         } catch (SQLException e) {
             System.out.println("something is wrong");
             e.printStackTrace();
-
-
-
         }
         return true;
     }
